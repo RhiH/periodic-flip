@@ -9,3 +9,16 @@
 body{
     background-color: blueviolet;
 }
+
+/*neaten up images test*/
+
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 8rem);
+    grid-template-rows: repeat(5, 5rem);
+}
+
+.front, .back {
+    height: 100%;
+    width: 100%;
+}

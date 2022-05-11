@@ -62,6 +62,10 @@ cardData.forEach((item) => {
         front.classList = 'front';
         back.classList = 'back';
 
+//attach the images to the cards
+
+        front.src = item.imgSrc;
+
 //put cards in section
 
         section.appendChild(card);
