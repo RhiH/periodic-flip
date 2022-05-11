@@ -8,7 +8,7 @@
 
 body{
     height:100vh;
-    background-color: blueviolet;
+    background-color: #357882;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,8 +20,9 @@ body{
 
 section {
     display: grid;
-    grid-template-columns: repeat(6, 12rem);
-    grid-template-rows: repeat(5, 12rem);
+    grid-template-columns: repeat(6, 11rem);
+    grid-template-rows: repeat(5, 11rem);
+    grid-gap: 1rem;
 }
 
 /*front, back styling*/
