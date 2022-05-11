@@ -25,9 +25,20 @@ section {
     grid-gap: 1rem;
 }
 
+/*card styling*/
+
+.card {
+    position: relative;
+}
+
 /*front, back styling*/
 
 .front, .back {
     height: 100%;
     width: 100%;
+    position: absolute;
+}
+
+.back {
+    background-color: gray;
 }
