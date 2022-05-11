@@ -39,6 +39,7 @@ const getData = () => [
 
 const randomize = () => {
     const cardData = getData();
+    cardData.sort(() => Math.random() -0.5);
    console.log(cardData);
 } 
 
