@@ -37,7 +37,11 @@ const getData = () => [
     {imgSrc:"../assets/images/Oxygen.jpg", name:"oxygen"},
 ]
 
-console.log(getData);
+const randomize = () => {
+    const cardData = getData();
+   console.log(cardData);
+} 
 
+randomize();
 
 
