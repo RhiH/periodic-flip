@@ -83,9 +83,11 @@ cardData.forEach((item) => {
 //check individual cards
 const checkCards = (e) => {
     console.log(e);
-    
-    
+    const clickedCard = e.target;
+    console.log(clickedCard);
 }
+    
+    
 
 cardCreator();
     
