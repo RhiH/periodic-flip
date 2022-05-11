@@ -84,7 +84,10 @@ cardData.forEach((item) => {
 const checkCards = (e) => {
     console.log(e);
     const clickedCard = e.target;
-    console.log(clickedCard);
+
+//check for matching cards after toggle
+
+
 }
     
     
