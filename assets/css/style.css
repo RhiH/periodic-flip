@@ -10,13 +10,15 @@ body{
     background-color: blueviolet;
 }
 
-/*neaten up images test*/
+/*section grid styling*/
 
 section {
     display: grid;
     grid-template-columns: repeat(6, 12.5rem);
     grid-template-rows: repeat(5, 12.5rem);
 }
+
+/*front, back styling*/
 
 .front, .back {
     height: 100%;
