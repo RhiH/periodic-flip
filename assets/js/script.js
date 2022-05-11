@@ -65,6 +65,7 @@ cardData.forEach((item) => {
 //attach the images to the cards
 
         front.src = item.imgSrc;
+        card.setAttribute('name', item.name);
 
 //put cards in section
 
@@ -78,6 +79,13 @@ cardData.forEach((item) => {
         });
     });
 };
+
+//check individual cards
+const checkCards = (e) => {
+    console.log(e);
+    
+    
+}
 
 cardCreator();
     

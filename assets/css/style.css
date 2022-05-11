@@ -52,3 +52,7 @@ section {
 .toggleCard {
     transform: rotateY(180deg);
 }
+
+.front{
+    transform: rotateY(-180deg);
+}
