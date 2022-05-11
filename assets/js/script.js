@@ -71,6 +71,11 @@ cardData.forEach((item) => {
         section.appendChild(card);
         card.appendChild(front);
         card.appendChild(back);
+
+        card.addEventListener('click', (e) => {
+            card.classList.toggle('toggleCard');
+            checkCards(e);
+        });
     });
 };
 
