@@ -89,7 +89,8 @@ const checkCards = (e) => {
     const flippedCards = document.querySelectorAll('.flipped');
     const toggleCard = document.querySelectorAll('.toggleCard');
     console.log(flippedCards);
-    //logic to create checker (amended to 3!)
+    
+//logic to create checker (amended to 3! - not working - change code.)
     
     if(flippedCards.length === 2) {
         if(
@@ -98,7 +99,8 @@ const checkCards = (e) => {
             flippedCards[2].getAttribute('name')
         ){
             console.log("match");
-            //change cards back to blank after flip and freeze correct match
+
+//change cards back to blank after flip and freeze correct match
             flippedCards.forEach((card) =>{
                 card.classList.remove('flipped');
                 card.style.pointerEvents = 'none';
@@ -106,7 +108,8 @@ const checkCards = (e) => {
         }
         else {
             console.log("wrong");
-            //change cards back to blank after flip inc. time limit.
+
+//change cards back to blank after flip inc. time limit.
             flippedCards.forEach((card) =>{
                 card.classList.remove('flipped');
                 setTimeout(()=> card.classList.remove('toggleCard'), 1000)
@@ -114,22 +117,26 @@ const checkCards = (e) => {
         };
     };
 
-        //check if game is won
+//check if game is won
         if(toggleCard.length === 30){
             restart('you won!');
         }
     };
-    //restart gme
+//restart game
+
     const restart = (text) => {
         let cardData = randomize();
         let faces = document.querySelectorAll('.front');
         let cards = document.querySelectorAll('.card');
-        //make nothing clickable until game re-sets
+
+//make nothing clickable until game re-sets
+
         section.style.pointerEvents = 'none';
         cardData.forEach((item,index) => {
             cards[index].classList.remove('toggleCard');
-    //re-randomize cards - pointer fucntion reset, images & names reset and delay timer
-    //so you can't see the new image beneath. Add back click - pointerEvents
+
+ //re-randomize cards - pointer reset, images & names reset and delay timer
+//so you can't see the new image beneath. Add back click - pointerEvents
             setTimeout(() => {
             cards[index].style.pointerEvents = 'all';
             faces[index].src = item.imgSrc;
