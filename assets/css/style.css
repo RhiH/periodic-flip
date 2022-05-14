@@ -38,8 +38,6 @@ section {
 
 .test {
 
-   
-
 }
 
 /*front, back styling*/
@@ -63,3 +61,11 @@ section {
 .front{
     transform: rotateY(-180deg);
 }
+
+/*media query to test*/
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
