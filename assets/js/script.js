@@ -90,11 +90,12 @@ const checkCards = (e) => {
     const toggleCard = document.querySelectorAll('.toggleCard');
     console.log(flippedCards);
 
-//logic to create checker (amended to 3! - not working - change code.)
+//logic to create checker 
     
     if(flippedCards.length === 3) {
         if(
             flippedCards[0].getAttribute('name') ===
+            flippedCards[1].getAttribute('name') &&
             flippedCards[1].getAttribute('name') ===
             flippedCards[2].getAttribute('name')
         ){
