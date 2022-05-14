@@ -1,6 +1,15 @@
-Periodic Flip
+# Periodic Flip #
 
-This is a memory game based around the first elements of the periodic table. 
+## A Memory Game Featuring Periodic Table Elements ## 
+
+**About the Game**
+
+This is a memory game with information about elements from the periodic table where you match 3 cards.
+
+Who is it for
+What does it do
+
+
 
 Originally conceived to have the first 10 elements of the periodic table, I decided that I would create cards with 3 pieces of information about each element alongside the name - symbol, boiling point and melting point.
 
@@ -15,6 +24,8 @@ One key part was changing the number of matches from 2 to 3, as this was not cov
 I decided to create the game by making it a match 2 cards to begin with to ensure my logic was sound, and then, once the functionality was up and running I would be able to amend the code to change it from 2 matches to 3. This was done at a later stage during the development of the JavaScript close to the end of making the game work.
 
 I decided that other than creating the cards, I would hold off formatting the site until the functionality was completed. Styling the site would be one of the last stages of creating the site.
+
+
 
 
 
