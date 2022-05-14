@@ -58,9 +58,9 @@ cardData.forEach((item) => {
         const card = document.createElement('div');
         const front = document.createElement('img');
         const back = document.createElement('div');
-        card.classList = 'card';
-        front.classList = 'front';
-        back.classList = 'back';
+        card.classList = 'card', 'test';
+        front.classList = 'front', 'test';
+        back.classList = 'back', 'test';
 
 //attach the images to the cards
 
