@@ -19,8 +19,8 @@ body{
 
 section {
     display: grid;
-    grid-template-columns: repeat(6, 11rem);
-    grid-template-rows: repeat(5, 11rem);
+    grid-template-columns: repeat(6, 6rem);
+    grid-template-rows: repeat(5, 9rem);
     grid-gap: 1rem;
     perspective: 800px;
 }
@@ -37,6 +37,8 @@ section {
 /* test styling for page formatting sizes */
 
 .test {
+
+   
 
 }
 
