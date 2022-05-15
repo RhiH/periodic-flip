@@ -1,6 +1,7 @@
 /**
  * @jest-environment jsdom
  */
- test('flippedCards', () => {
-    expect('name'()).toBe('length === 3');
+
+ test('flippedCards.length', () => {
+    expect('numberOfCards'()).toBe('length === 3');
   });

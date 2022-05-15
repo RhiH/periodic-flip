@@ -121,6 +121,7 @@ const checkCards = (e) => {
 //check if game is won
         if(toggleCard.length === 30){
             restart('you won!');
+            console.log('you won')
         }
     };
 //restart game
