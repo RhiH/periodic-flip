@@ -67,6 +67,10 @@ section {
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
-    
     }
+    section{
+      grid-template-columns: repeat(3, 2rem);
+      grid-template-rows: repeat(10, 3rem);
+    }
+    
   }
