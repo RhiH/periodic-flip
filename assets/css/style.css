@@ -25,6 +25,11 @@ section {
     perspective: 800px;
 }
 
+h1, h2 {
+    color: darkgray;
+   
+}
+
 /*card styling*/
 
 .card {
@@ -34,7 +39,7 @@ section {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
 }
 
-/* test styling for page formatting sizes */
+/* test styling for page formatting sizes - remove!!!!*/
 
 .test {
 
