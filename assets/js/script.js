@@ -1,6 +1,7 @@
 //assemble memory game with section
 
 const section = document.querySelector('section');
+console.log(`SECTION: ${section}`);
 
 
 //generate data - note images are repeated 3 times as they will appear 3 times!
@@ -53,9 +54,9 @@ randomize();
 const cardCreator = () => {
     const cardData = randomize();
 
-// create the HTML
+    // create the HTML
 
-cardData.forEach((item) => {
+    cardData.forEach((item) => {
         const card = document.createElement('div');
         const front = document.createElement('img');
         const back = document.createElement('div');
@@ -63,12 +64,12 @@ cardData.forEach((item) => {
         front.classList = 'front', 'test';
         back.classList = 'back', 'test';
 
-//attach the images to the cards
+        //attach the images to the cards
 
         front.src = item.imgSrc;
         card.setAttribute('name', item.name);
 
-//put cards in section
+        //put cards in section
 
         section.appendChild(card);
         card.appendChild(front);
@@ -151,3 +152,8 @@ const checkCards = (e) => {
 };
 
 cardCreator();
+
+// attempted fix Gemma_CI
+
+// if (typeof module !== "undefined") module.exports = { appendCard };
+module.exports = { section, getData, randomize, cardCreator, checkCards, restart };
