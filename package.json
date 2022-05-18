@@ -17,6 +17,17 @@
   },
   "homepage": "https://github.com/RhiH/periodic-flip#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^25.5.4",
+    "jest-environment-jsdom": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testEnvironmentOptions": {
+      "browsers": [
+        "chrome",
+        "firefox",
+        "safari"
+      ]
+    }
   }
 }

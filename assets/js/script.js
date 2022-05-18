@@ -1,7 +1,7 @@
 //assemble memory game with section
 
 const section = document.querySelector('section');
-console.log(`SECTION: ${section}`);
+// console.log(`SECTION: ${section}`);
 
 
 //generate data - note images are repeated 3 times as they will appear 3 times!
