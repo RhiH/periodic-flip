@@ -8,7 +8,7 @@
 
 body{
     height:100vh;
-    background-color: #672dbe;
+    background-color: rgb(202, 29, 29);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ section {
 }
 
 h1, h2 {
-    color: darkgray;
+    color: black;
    
 }
 

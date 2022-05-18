@@ -2,14 +2,15 @@
  * @jest-environment jsdom
  */
 
-jest.spyOn(window, "alert").mockImplementation(() => {});
+const { flippedCards, cardData, cardCreator } = require("../script");
+
+jest.spyOn(window, "alert").mockImplementation(() => { });
 
 // attempted fix Gemma_CI
 //  let appendCard;
 
 let getData;
 let randomize;
-let cardCreator;
 let checkCards;
 let restart;
 
@@ -24,6 +25,8 @@ beforeAll(() => {
     cardCreator = require('../script').cardCreator;
     checkCards = require('../script').checkCards;
     restart = require('../script').restart;
+    flippedCards = require('../script').flippedCards;
+    cardData = require('../script').cardData;
 
     // attempted fix Gemma_CI
     //  appendCard = require('../script').appendCard;

@@ -37,7 +37,7 @@ const getData = () => [
     {imgSrc:"../assets/images/Neon.jpg", name:"neon"},
     {imgSrc:"../assets/images/Nitrogen.jpg", name:"nitrogen"},
     {imgSrc:"../assets/images/Oxygen.jpg", name:"oxygen"},
-]
+];
 
 //randomize cards 
 
@@ -45,7 +45,7 @@ const randomize = () => {
     const cardData = getData();
     cardData.sort(() => Math.random() -0.5);
     return(cardData);
-} 
+}; 
 
 randomize();
 
@@ -60,9 +60,9 @@ const cardCreator = () => {
         const card = document.createElement('div');
         const front = document.createElement('img');
         const back = document.createElement('div');
-        card.classList = 'card', 'test';
-        front.classList = 'front', 'test';
-        back.classList = 'back', 'test';
+        card.classList = "card", 'test';
+        front.classList = "front", 'test';
+        back.classList = "back", 'test';
 
         //attach the images to the cards
 
@@ -87,7 +87,7 @@ const cardCreator = () => {
 const checkCards = (e) => {
     console.log(e);
     const clickedCard = e.target;
-    clickedCard.classList.add('flipped');
+    clickedCard.classList.add("flipped");
     const flippedCards = document.querySelectorAll('.flipped');
     const toggleCard = document.querySelectorAll('.toggleCard');
     console.log(flippedCards);
@@ -123,9 +123,11 @@ const checkCards = (e) => {
 //check if game is won
         if(toggleCard.length === 30){
             restart('you won!');
-            console.log('you won')
+            console.log('you won');
+          
         }
-    };
+    }        
+
 //restart game
 
     const restart = (text) => {
@@ -145,8 +147,8 @@ const checkCards = (e) => {
             cards[index].style.pointerEvents = 'all';
             faces[index].src = item.imgSrc;
             cards[index].setAttribute('name', item.name);
-            section.style.pointerEvents = 'all'
-            },1000)
+            section.style.pointerEvents = 'all';
+            },1000);
         });
     
 };
@@ -156,4 +158,4 @@ cardCreator();
 // attempted fix Gemma_CI
 
 // if (typeof module !== "undefined") module.exports = { appendCard };
-module.exports = { section, getData, randomize, cardCreator, checkCards, restart };
+module.exports = { section, getData, randomize, cardCreator, checkCards, restart, flippedCards, cardData};
