@@ -60,9 +60,9 @@ const cardCreator = () => {
         const card = document.createElement('div');
         const front = document.createElement('img');
         const back = document.createElement('div');
-        card.classList = "card", 'test';
-        front.classList = "front", 'test';
-        back.classList = "back", 'test';
+        card.classList = "card";
+        front.classList = "front";
+        back.classList = "back";
 
         //attach the images to the cards
 
@@ -158,4 +158,4 @@ cardCreator();
 // attempted fix Gemma_CI
 
 // if (typeof module !== "undefined") module.exports = { appendCard };
-module.exports = { section, getData, randomize, cardCreator, checkCards, restart, flippedCards, cardData};
+module.exports = getData, randomize, cardCreator, checkCards, restart, cardData;
