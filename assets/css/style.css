@@ -61,7 +61,7 @@ h1, h2 {
     transform: rotateY(-180deg);
 }
 
-/*media query to test*/
+/*media queries*/
 
 @media only screen and (max-width: 600px) {
     body {
