@@ -122,9 +122,17 @@ const checkCards = (e) => {
 
 //check if game is won
         if(toggleCard.length === 30){
+            Swal.fire({
+                title: 'Congratulations!',
+                text: "You've won!",
+                confirmButtonColor: '#3085d6',
+                confirmButtonText: 'Yes! Play again'
+              }).then((result) => {
+                if (result.isConfirmed) {
+
+                }
+              })
             restart('you won!');
-            console.log('you won');
-          
         }
     }        
 
