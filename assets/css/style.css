@@ -18,6 +18,10 @@ body{
     flex-direction: column;
 }
 
+html,body {
+    -webkit-font-smoothing: antialiased;    
+}
+
 /*section grid styling*/
 
 section {
