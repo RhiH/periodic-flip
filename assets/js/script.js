@@ -5,36 +5,36 @@ const section = document.querySelector('section');
 //generate data - note images are repeated 3 times as they will appear 3 times!
 
 const getData = () => [
-    {imgSrc:"../assets/images/beryllium2.jpg", name:"beryllium"},
-    {imgSrc:"../assets/images/boron2.jpg", name:"boron"},
-    {imgSrc:"../assets/images/carbon2.jpg", name:"carbon"},
-    {imgSrc:"../assets/images/fluorine2.png", name:"fluorine"},
-    {imgSrc:"../assets/images/helium2.jpg", name:"helium"},
-    {imgSrc:"../assets/images/hydrogen2.jpg", name:"hydrogen"},
-    {imgSrc:"../assets/images/lithium2.jpg", name:"lithium"},
-    {imgSrc:"../assets/images/neon2.jpg", name:"neon"},
-    {imgSrc:"../assets/images/nitrogen2.jpg", name:"nitrogen"},
-    {imgSrc:"../assets/images/oxygen2.jpg", name:"oxygen"},
-    {imgSrc:"../assets/images/beryllium2.jpg", name:"beryllium"},
-    {imgSrc:"../assets/images/boron2.jpg", name:"boron"},
-    {imgSrc:"../assets/images/carbon2.jpg", name:"carbon"},
-    {imgSrc:"../assets/images/fluorine2.png", name:"fluorine"},
-    {imgSrc:"../assets/images/helium2.jpg", name:"helium"},
-    {imgSrc:"../assets/images/hydrogen2.jpg", name:"hydrogen"},
-    {imgSrc:"../assets/images/lithium2.jpg", name:"lithium"},
-    {imgSrc:"../assets/images/neon2.jpg", name:"neon"},
-    {imgSrc:"../assets/images/nitrogen2.jpg", name:"nitrogen"},
-    {imgSrc:"../assets/images/oxygen2.jpg", name:"oxygen"},
-    {imgSrc:"../assets/images/beryllium2.jpg", name:"beryllium"},
-    {imgSrc:"../assets/images/boron2.jpg", name:"boron"},
-    {imgSrc:"../assets/images/carbon2.jpg", name:"carbon"},
-    {imgSrc:"../assets/images/fluorine2.png", name:"fluorine"},
-    {imgSrc:"../assets/images/helium2.jpg", name:"helium"},
-    {imgSrc:"../assets/images/hydrogen2.jpg", name:"hydrogen"},
-    {imgSrc:"../assets/images/lithium2.jpg", name:"lithium"},
-    {imgSrc:"../assets/images/neon2.jpg", name:"neon"},
-    {imgSrc:"../assets/images/nitrogen2.jpg", name:"nitrogen"},
-    {imgSrc:"../assets/images/oxygen2.jpg", name:"oxygen"},
+    {imgSrc:"assets/images/beryllium2.jpg", name:"beryllium"},
+    {imgSrc:"assets/images/boron2.jpg", name:"boron"},
+    {imgSrc:"assets/images/carbon2.jpg", name:"carbon"},
+    {imgSrc:"assets/images/fluorine2.jpg", name:"fluorine"},
+    {imgSrc:"assets/images/helium2.jpg", name:"helium"},
+    {imgSrc:"assets/images/hydrogen2.jpg", name:"hydrogen"},
+    {imgSrc:"assets/images/lithium2.jpg", name:"lithium"},
+    {imgSrc:"assets/images/neon2.jpg", name:"neon"},
+    {imgSrc:"assets/images/nitrogen2.jpg", name:"nitrogen"},
+    {imgSrc:"assets/images/oxygen2.jpg", name:"oxygen"},
+    {imgSrc:"assets/images/beryllium2.jpg", name:"beryllium"},
+    {imgSrc:"assets/images/boron2.jpg", name:"boron"},
+    {imgSrc:"assets/images/carbon2.jpg", name:"carbon"},
+    {imgSrc:"assets/images/fluorine2.jpg", name:"fluorine"},
+    {imgSrc:"assets/images/helium2.jpg", name:"helium"},
+    {imgSrc:"assets/images/hydrogen2.jpg", name:"hydrogen"},
+    {imgSrc:"assets/images/lithium2.jpg", name:"lithium"},
+    {imgSrc:"assets/images/neon2.jpg", name:"neon"},
+    {imgSrc:"assets/images/nitrogen2.jpg", name:"nitrogen"},
+    {imgSrc:"assets/images/oxygen2.jpg", name:"oxygen"},
+    {imgSrc:"assets/images/beryllium2.jpg", name:"beryllium"},
+    {imgSrc:"assets/images/boron2.jpg", name:"boron"},
+    {imgSrc:"assets/images/carbon2.jpg", name:"carbon"},
+    {imgSrc:"assets/images/fluorine2.jpg", name:"fluorine"},
+    {imgSrc:"assets/images/helium2.jpg", name:"helium"},
+    {imgSrc:"assets/images/hydrogen2.jpg", name:"hydrogen"},
+    {imgSrc:"assets/images/lithium2.jpg", name:"lithium"},
+    {imgSrc:"assets/images/neon2.jpg", name:"neon"},
+    {imgSrc:"assets/images/nitrogen2.jpg", name:"nitrogen"},
+    {imgSrc:"assets/images/oxygen2.jpg", name:"oxygen"},
 ];
 
 //randomize cards 
@@ -159,7 +159,4 @@ const checkCards = (e) => {
 
 cardCreator();
 
-// attempted fix Gemma_CI
-
-// if (typeof module !== "undefined") module.exports = { appendCard };
 module.exports = getData, randomize,  cardData, cardCreator;
