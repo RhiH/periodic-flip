@@ -74,6 +74,7 @@ A number of future enhancements could be created for the page. Below are some of
 * add in a timer as an addtional challenge.
 * create more cards from periodic table, and create a bigger grid - this could tie in to number of levels.
 * create an additional page with more info about each of the elements on the cards should the user wish to learn more.
+* consider amending card design for a faster site.
 
 ## **Credits**
 
