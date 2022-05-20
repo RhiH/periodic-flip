@@ -82,11 +82,12 @@ A final thank you to the five year old who beat me at a memory matching card gam
 
 ## **General References**
 
-The project was influenced by Awesome Vanilla JavaScript Memory Card Game Tutorial by Dev Ed available on YouTube. 
+The project was influenced by [Awesome Vanilla JavaScript Memory Card Game Tutorial](https://www.youtube.com/watch?v=-tlb4tv4mC4) by Dev Ed available on YouTube. 
 
-https://www.youtube.com/watch?v=-tlb4tv4mC4
+I also consulted [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek) by freeCodeCamp.org available on YouTube.
 
-I also consulted Memory Card Game - JavaScript Tutorial by freeCodeCamp.org available on YouTube. https://www.youtube.com/watch?v=ZniVgo8U7ek 
+
+
 
 Whilst I have deviated from these, there may be some similarities in code.
 
