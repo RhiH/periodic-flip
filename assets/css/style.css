@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 /*body styling*/
 
 body{
@@ -63,7 +66,31 @@ h1, h2 {
 
 /*media queries*/
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 993px){
+body {
+    background-color: blue; 
+    height: 85vh;
+  }
+
+  h1 {
+    font-size: medium;
+    color: antiquewhite;
+}
+
+h2 {
+    font-size: small;
+    color: antiquewhite;
+}
+section{
+   
+  grid-template-columns: repeat(5, 4.5rem);
+  grid-template-rows: repeat(6, 5.5rem);
+}
+}
+
+
+@media only screen and (max-width: 803px) {
     body {
       background-color: purple; 
       height: 85vh;   
@@ -103,8 +130,8 @@ h1, h2 {
       }
       section{
          
-        grid-template-columns: repeat(4, 2.5rem);
-        grid-template-rows: repeat(8, 2.85rem);
+        grid-template-columns: repeat(4, 2rem);
+        grid-template-rows: repeat(8, 2.4rem);
         
       }
   }
