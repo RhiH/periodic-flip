@@ -47,8 +47,6 @@ const randomize = () => {
     return(cardData);
 }; 
 
-randomize();
-
 //create the cards
 
 const cardCreator = () => {
@@ -166,4 +164,4 @@ cardCreator();
 // attempted fix Gemma_CI
 
 // if (typeof module !== "undefined") module.exports = { appendCard };
-module.exports = getData, randomize, cardCreator, checkCards, restart, cardData;
+module.exports = getData, randomize,  cardData, cardCreator;

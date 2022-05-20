@@ -96,6 +96,8 @@ I also consulted [Memory Card Game - JavaScript Tutorial](https://www.youtube.co
 
 Whilst I have deviated from these, there may be some similarities in code.
 
+My congratulations you've won button is based on [Sweet Alert 2](https://sweetalert2.github.io/#examples) pop ups with amended code specifically for the game.
+
 I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
 
 ## **Content**
