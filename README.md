@@ -59,5 +59,19 @@ I also decided that not all the cards should be bold colors and therefore, the c
 
 ## **Page Set Up**
 
-There is only one page for the game. I decided against having any additional pages as the focus is the game and not a site for mutliple games on different pages. The page is minimal with the only two pieces of text 
+There is only one page for the game. I decided against having any additional pages as the focus is the game and not a site for multiple games on different pages. The page is minimal with the only two pieces of text - the title of the game and the statement that it is a match 3 game. Clicking on a card will rotate the card, and this is doable until 3 unmatching cards are clicked at which point they rotate back. Clicking on 3 matching cards will freeze the cards, and therefore the user should be able to understand the game relatively quickly. 
+
+## **Future-Enhancements**
+
+A number of future enhancements could be created for the page. Below are some of the ideas that have been considered:
+
+* change the number of cards to a lower amount, and then increase to 30 by creating different levels.
+* add in game lives to give an additional challenge.
+* add in a timer as an addtional challenge.
+* create more cards from periodic table, and create a bigger grid - this could tie in to number of levels.
+* create an additional page with more info about each of the elements on the cards should the user wish to learn more.
+
+
+
+
 
