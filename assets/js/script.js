@@ -239,4 +239,4 @@ const restart = (text) => {
 
 cardCreator();
 
-module.exports = getData, randomize, cardData, cardCreator;
+module.exports = getData, randomize, cardData, cardCreator, checkCards;
