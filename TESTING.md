@@ -6,6 +6,8 @@
 
 During development testing, each stage was manually tested to ensure that the game's functionality and appearance were both working well. 
 
+![Early Testing](assets/doc/earlystages.png)
+
 Originally the game was built as a match two game to ensure the functions worked, and following on from this code was amended to ensure that the original plan of the game being a match 3 game came to fruition. 
 
 **Work in Progress**
@@ -30,13 +32,25 @@ Originally the game was built as a match two game to ensure the functions worked
 
 HTML checker
 
+![HTML Checker](assets/doc/htmlchecker.png)
+
 CSS 
+
+![CSS Testing](assets/doc/w3s-css.png)
 
 JS
 
+![JS Testing](assets/doc/js-hint.png)
+
 Lighthouse
 
+![Lighthouse desktop](assets/doc/Lighthousedesktop.png)
+
 Interestingly lighthouse issues with the card design on mobiles - more on this below.
+
+![Lighthouse mobile](assets/doc/lighthousemobile.png)
+
+![Lighthouse improvements](assets/doc/lighthouseimprovements.png)
 
 **Responsiveness**
 
@@ -46,15 +60,21 @@ Media query has been used in css to create 4 versions of the site depending on t
 
 Originally the plan for the game was to have 3 pieces of information on the cards about the first 10 elements of the periodic table. Some of the original card designs can be seen here:
 
+![EarlyDesign](assets/doc/earlydesignoldcard.png)
+
 However, it became increasingly obvious as the the testing continued that the smaller the screen the harder it was to read the information - defeating the objective of aiding learning that had been part of the original plan for the game.
 
-I did try to create a variation - see here below:
-
-However this did not seem to be the right solution either.
+I did try to create a variation with larger text on the card but that did not seem to be the right solution either.
 
 After discussions with my mentor, Richard, the solution seemed obvious. The cards were my design so I could simply change the design to focus on less information, and instead have the symbol for the element as the focus, with the name below. I kept in the infomation about the weight of the elements as I felt there needed to be something in keeping with the original concept. 
 
+![New Card Design](assets/doc/newcarddesign.png)
+
 As you can see the symbols are clear on all screens, not just the larger ones. Success!
+
+![new design with code](assets/doc/testingnewdesignwithcode.png)
+![new card design mobile](assets/doc/newcarddesignmobile.png)
+![new design large screen](assets/doc/newdesignlargescreen.png)
 
 However, as can be seen with the testing on Lighthouse, there is still room for improvement regarding the card design. This is something to consider for the future.
 
@@ -67,6 +87,8 @@ Jest testing is new to me and I admit I struggled with creating tests to test th
 * Failing to initialise. Despite following the instructions and installing jest, I found it seemed to uninstall on it's own accord. I wouldn't be surprised if you tried to run it now and the site decided it had no memory of it! As a total beginner to using it, I spent a considerable amount of time wondering if it was something I was doing wrong or whether there was something I'd missed. It did not build my confidence in understanding jest. 
 
 * Writing the wrong test. Now this was my biggest failing and it took quite a few reviews and comments from others to work out where I was going wrong. To be fair to me - most of them didn't spot the issue either. I wrote a test for flippedCards. The test was expecting to see flipped cards - a function that worked perfectly well on the site. Unfortunately what I forgot to add in, was to create the steps that would have happened before that part of the code ran. It failed. Miserably, and I failed to work out why it was failing. Suffice to say, my confidence in understanding jest took another knock. 
+
+![Jest code fail](assets/doc/flippedcards.png)
 
 **Outcomes**
 
@@ -107,7 +129,7 @@ I can see areas that would like to re-examine at a later point when I've stepped
 
 There are bits I'm pleased with and parts I'm still frustrated with - which is all part of the learning process. Suffice to say, it's not 100% where I thought it would be when I started, but it's helped me move far further along my learning journey than I ever would have thought. 
 
-Finally, it's reminded me just how much I do enjoy memory matching games, and playing the game over and over was a joy.
+Finally, it's reminded me just how much I do enjoy memory matching games; and playing the game over and over was a joy.
 
 
 
