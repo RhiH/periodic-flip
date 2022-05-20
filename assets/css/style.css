@@ -1,16 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-
 /*body styling*/
 
-body{
-    height:100vh;
+body {
+    height: 100vh;
     background-color: rgb(202, 29, 29);
     display: flex;
     justify-content: center;
@@ -18,8 +15,9 @@ body{
     flex-direction: column;
 }
 
-html,body {
-    -webkit-font-smoothing: antialiased;    
+html,
+body {
+    -webkit-font-smoothing: antialiased;
 }
 
 /*section grid styling*/
@@ -32,8 +30,9 @@ section {
     perspective: 800px;
 }
 
-h1, h2 {
-    color: antiquewhite;  
+h1,
+h2 {
+    color: antiquewhite;
 }
 
 h1 {
@@ -55,7 +54,8 @@ h2 {
 
 /*front, back styling*/
 
-.front, .back {
+.front,
+.back {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -71,42 +71,18 @@ h2 {
     transform: rotateY(180deg);
 }
 
-.front{
+.front {
     transform: rotateY(-180deg);
 }
 
 /*media queries*/
 
-
-@media only screen and (max-width: 992px){
-body {
-    background-color: blue; 
-    height: 85vh;
-  }
-
-  h1 {
-    font-size: medium;
-    color: antiquewhite;
-}
-
-h2 {
-    font-size: small;
-    color: antiquewhite;
-}
-section{
-   
-  grid-template-columns: repeat(5, 4.5rem);
-  grid-template-rows: repeat(6, 5.5rem);
-}
-}
-
-
-@media only screen and (max-width: 803px) {
+@media only screen and (max-width: 992px) {
     body {
-      background-color: purple; 
-      height: 85vh;   
+        background-color: blue;
+        height: 85vh;
     }
-   
+
     h1 {
         font-size: medium;
         color: antiquewhite;
@@ -116,35 +92,54 @@ section{
         font-size: small;
         color: antiquewhite;
     }
-    section{
-       
-      grid-template-columns: repeat(5, 4.5rem);
-      grid-template-rows: repeat(6, 5.5rem);
-    }
-    
-  }
 
-  @media only screen and (max-width: 320px) {
+    section {
+
+        grid-template-columns: repeat(5, 4.5rem);
+        grid-template-rows: repeat(6, 5.5rem);
+    }
+}
+
+@media only screen and (max-width: 803px) {
     body {
-        background-color: green; 
-        height: 85vh;   
-      }
-     
-      h1 {
-          font-size: small;
-          color: antiquewhite;
-      }
-  
-      h2 {
-          font-size: smaller;
-          color: antiquewhite;
-      }
-      section{
-         
+        background-color: purple;
+        height: 85vh;
+    }
+
+    h1 {
+        font-size: medium;
+        color: antiquewhite;
+    }
+
+    h2 {
+        font-size: small;
+        color: antiquewhite;
+    }
+
+    section {
+        grid-template-columns: repeat(5, 4.5rem);
+        grid-template-rows: repeat(6, 5.5rem);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: green;
+        height: 85vh;
+    }
+
+    h1 {
+        font-size: small;
+        color: antiquewhite;
+    }
+
+    h2 {
+        font-size: smaller;
+        color: antiquewhite;
+    }
+
+    section {
         grid-template-columns: repeat(4, 1.95rem);
         grid-template-rows: repeat(8, 2.3rem);
-        
-      }
-  }
-
-  
+    }
+}
