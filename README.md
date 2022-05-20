@@ -55,6 +55,8 @@ There was deviation from the initial plans as the site progressed in terms of wh
 
 The color scheme became a dynamic one during the project. As the focus is meant to be on the cards, these were designed to be colorful, and the rest of the page should not detract from them, however, I decided that having a white background would not be in keeping with the overall aesthetic appeal - the game is meant to be a fun one, and therefore for the background colors i decided these would be bright and vivid, but also not take away from the vibrancy of the cards. 
 
+![Beryllium](assets/images/Beryllium.jpg)
+
 I also decided that not all the cards should be bold colors and therefore, the color scheme for the cards: Carbon, Lithium and Nitrogen are more muted in tone and color.
 
 ## **Page Set Up**
