@@ -107,8 +107,7 @@ I can see areas that would like to re-examine at a later point when I've stepped
 
 There are bits I'm pleased with and parts I'm still frustrated with - which is all part of the learning process. Suffice to say, it's not 100% where I thought it would be when I started, but it's helped me move far further along my learning journey than I ever would have thought. 
 
-Finally, it's reminded me just how much I do enjoy memory matching games. I'm not sure I'd manage to beat that 5 year old who shall remain nameless who originally inspired it though.
-
+Finally, it's reminded me just how much I do enjoy memory matching games, and playing the game over and over was a joy.
 
 
 
