@@ -22,15 +22,24 @@ body{
 
 section {
     display: grid;
-    grid-template-columns: repeat(6, 6rem);
-    grid-template-rows: repeat(5, 9rem);
+    grid-template-columns: repeat(6, 5rem);
+    grid-template-rows: repeat(5, 8rem);
     grid-gap: 1rem;
     perspective: 800px;
 }
 
 h1, h2 {
-    color: black;
+
+    color: antiquewhite;
    
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: larger;
 }
 
 /*card styling*/
@@ -67,7 +76,7 @@ h1, h2 {
 /*media queries*/
 
 
-@media only screen and (max-width: 993px){
+@media only screen and (max-width: 992px){
 body {
     background-color: blue; 
     height: 85vh;
