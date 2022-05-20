@@ -29,6 +29,8 @@ Originally the game was built as a match two game to ensure the functions worked
 
 * During the process, once the js was written and was working, the focus shifted to the styling of the cards, and editing the css to create a user-friendly site.
 
+* During the deployment it was discovered that the images were returning a 404 error. This was queried on Slack, and it was pointed out that the pages needed to be relative not absolute. After a quick amount of amending the deployed version had the correct images.
+
 **Validations**
 
 HTML checker
