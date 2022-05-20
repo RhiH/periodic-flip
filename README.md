@@ -2,7 +2,9 @@
 
 ## A Memory Game Featuring Periodic Table Elements ## 
 
-**About the Game**
+![responsive image](assets/doc/amiresponsive.png)
+
+**Original thoughts about the Game**
 
 This is a memory game with information about elements from the periodic table where you match 3 cards.
 
@@ -48,6 +50,9 @@ I decided that other than creating the cards, I would hold off formatting the si
 ### **Wireframes**
 
 I created wireframes with the basic idea of how to format the game to give a starting point for the development of the site.
+
+![wireframe 1](assets/doc/originalwireframe.png)
+![wireframe 2](assets/doc/mobilewireframe.png)
 
 There was deviation from the initial plans as the site progressed in terms of what kind of size best suited the cards and how they would look across different versions in terms of size. one of the challenges was the number of cards involved, as there were 30 cards and the format of these could require some compromising, to ensure they fit comfortably on screen and the information remains readable for the user.
 
