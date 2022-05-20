@@ -59,6 +59,8 @@ The color scheme became a dynamic one during the project. As the focus is meant 
 
 I also decided that not all the cards should be bold colors and therefore, the color scheme for the cards: Carbon, Lithium and Nitrogen are more muted in tone and color.
 
+![Carbon](assets/images/Carbon.jpg)
+
 ## **Page Set Up**
 
 There is only one page for the game. I decided against having any additional pages as the focus is the game and not a site for multiple games on different pages. The page is minimal with the only two pieces of text - the title of the game and the statement that it is a match 3 game. Clicking on a card will rotate the card, and this is doable until 3 unmatching cards are clicked at which point they rotate back. Clicking on 3 matching cards will freeze the cards, and therefore the user should be able to understand the game relatively quickly. 
@@ -86,14 +88,11 @@ The project was influenced by [Awesome Vanilla JavaScript Memory Card Game Tutor
 
 I also consulted [Memory Card Game - JavaScript Tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek) by freeCodeCamp.org available on YouTube.
 
-
-
-
 Whilst I have deviated from these, there may be some similarities in code.
 
 I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
 
-## ** Content**
+## **Content**
 
 All cards have been created by myself, using information freely available regarding the properties of the first 10 elements of the periodic table.
 
