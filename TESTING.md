@@ -4,7 +4,7 @@
 
 **About the Testing**
 
-During development testing, each stage was meticulously manually tested to ensure that the game's functionality and appearance were both working well. 
+During development testing, each stage was manually tested to ensure that the game's functionality and appearance were both working well. 
 
 Originally the game was built as a match two game to ensure the functions worked, and following on from this code was amended to ensure that the original plan of the game being a match 3 game came to fruition. 
 
@@ -73,6 +73,43 @@ Jest testing is new to me and I admit I struggled with creating tests to test th
 My initial plan for writing tests in jest, based on my experiences above, meant my confidence in understanding what I was doing was at an all time low. I have written another test, but I won't document it here. My plan to create tests for the step by step development of the site felt like a step too far for me. I simply couldn't do it and the stress of it all meant I decided to put that aside and focus on the site development itself.
 
 How do I plan to fix this in the long run? I aim to review my understanding of the functionality of jest and learn to write tests better. I will say that creating a failing test was a big learning experience for me. I spent a lot of time looking on the internet to see if I could work out the solution to my failing test, and learned quite a bit about what else could have made it fail. Since then, I have re-reviewed the documentation and videos on Code Institute, and I will say that I understood a lot more, and could see some of the errors I had made originally. 
+
+**Evaluation**
+
+Overall, the site works. The cards flip, the game runs and re-sets to start again. The initial aims are all met.
+
+ **Target Audiences:**
+* Users who want to learn about the periodic table in a fun way
+* Users who want to learn while they play
+* Users who want a game that is more than match 2
+* Users who enjoy memory games 
+
+
+ **User Stories:**
+* As a user, I want play a fun matching game that is informative
+* As a user, I want to learn something while I play
+* As a user, I want to challenge my memory by playing a game
+* As a user, I want to be able to play the game again with the cards in a new order
+
+
+**Site Aims:**
+* To educate the user in a fun way
+* To ensure the cards change order after the game is completed
+* To ensure the site is responsive
+
+That being said however, I can see a number of opportunities to improve the site - whether it be changing the cards, or adding in levels, there is a lot of potential for the site to be something I could build on in future and make it a more challenging and fun experience for users.  
+
+**Final Thoughts**
+
+I have learned far more than I thought I would in creating the site. It threw up more problems than I anticipated - not so much in the actual building of the game, but in all the other parts of creating the site - whether it be redesiging the cards twice, having what seemed like endless problems with jest, and on more than one occasion making what I thought would be a minor change to the css and finding my entire game vanished - ctrl z was probably my most used keyboard shortcut.
+
+I can see areas that would like to re-examine at a later point when I've stepped away from it all for a bit, and part of me would probably like to try re-building it all from scratch - which I did do, but found that my edits there were even worse than the problems I encountered here (hello again jest), and that perhaps I was better off building on what I'd already done, rather than chucking it all out and starting again. 
+
+There are bits I'm pleased with and parts I'm still frustrated with - which is all part of the learning process. Suffice to say, it's not 100% where I thought it would be when I started, but it's helped me move far further along my learning journey than I ever would have thought. 
+
+Finally, it's reminded me just how much I do enjoy memory matching games. I'm not sure I'd manage to beat that 5 year old who shall remain nameless who originally inspired it though.
+
+
 
 
 
