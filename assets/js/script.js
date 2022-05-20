@@ -115,10 +115,10 @@ const checkCards = (e) => {
 //change cards back to blank after flip inc. time limit.
             flippedCards.forEach((card) =>{
                 card.classList.remove('flipped');
-                setTimeout(()=> card.classList.remove('toggleCard'), 1000)
+                setTimeout(()=> card.classList.remove('toggleCard'), 1000);
             });
-        };
-    };
+        }
+    }
 
 //check if game is won
         if(toggleCard.length === 30){
@@ -131,10 +131,10 @@ const checkCards = (e) => {
                 if (result.isConfirmed) {
 
                 }
-              })
+              });
             restart('you won!');
         }
-    }        
+    };       
 
 //restart game
 

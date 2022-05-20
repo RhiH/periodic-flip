@@ -137,8 +137,8 @@ section{
       }
       section{
          
-        grid-template-columns: repeat(4, 2rem);
-        grid-template-rows: repeat(8, 2.4rem);
+        grid-template-columns: repeat(4, 1.95rem);
+        grid-template-rows: repeat(8, 2.3rem);
         
       }
   }
