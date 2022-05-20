@@ -74,7 +74,6 @@ As you can see the symbols are clear on all screens, not just the larger ones. S
 
 ![new design with code](assets/doc/testingnewdesignwithcode.png)
 ![new card design mobile](assets/doc/newcarddesignmobile.png)
-![new design large screen](assets/doc/newdesignlargescreen.png)
 
 However, as can be seen with the testing on Lighthouse, there is still room for improvement regarding the card design. This is something to consider for the future.
 
@@ -92,7 +91,7 @@ Jest testing is new to me and I admit I struggled with creating tests to test th
 
 **Outcomes**
 
-My initial plan for writing tests in jest, based on my experiences above, meant my confidence in understanding what I was doing was at an all time low. I have written another test, but I won't document it here. My plan to create tests for the step by step development of the site felt like a step too far for me. I simply couldn't do it and the stress of it all meant I decided to put that aside and focus on the site development itself.
+My initial plan for writing tests in jest, based on my experiences above, meant my confidence in understanding what I was doing was at an all time low. I have changed the test, but I won't document it here, as one of the problems I encountered is something that requires more testing. My plan to create tests for the step by step development of the site felt like a step too far for me. I simply couldn't do it and I decided on relfection to put that aside and focus on the site development itself.
 
 How do I plan to fix this in the long run? I aim to review my understanding of the functionality of jest and learn to write tests better. I will say that creating a failing test was a big learning experience for me. I spent a lot of time looking on the internet to see if I could work out the solution to my failing test, and learned quite a bit about what else could have made it fail. Since then, I have re-reviewed the documentation and videos on Code Institute, and I will say that I understood a lot more, and could see some of the errors I had made originally. 
 

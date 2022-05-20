@@ -98,11 +98,15 @@ Whilst I have deviated from these, there may be some similarities in code.
 
 My congratulations you've won button is based on [Sweet Alert 2](https://sweetalert2.github.io/#examples) pop ups with amended code specifically for the game.
 
+I have put Boostrap links in, in anticipation of future development using their functionality.
+
 I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
 
 ## **Content**
 
 All cards have been created by myself, using information freely available regarding the properties of the first 10 elements of the periodic table.
+
+* Testing documentation is available in the TESTING.MD file.
 
 
 
