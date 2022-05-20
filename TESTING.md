@@ -7,6 +7,7 @@
 During development testing, each stage was manually tested to ensure that the game's functionality and appearance were both working well. 
 
 ![Early Testing](assets/doc/earlystages.png)
+*An early image of the game.*
 
 Originally the game was built as a match two game to ensure the functions worked, and following on from this code was amended to ensure that the original plan of the game being a match 3 game came to fruition. 
 
@@ -33,6 +34,8 @@ Originally the game was built as a match two game to ensure the functions worked
 HTML checker
 
 ![HTML Checker](assets/doc/htmlchecker.png)
+
+As the the majority of the site is created in the js file, not HTML I decided against adding anything that was not required. If there was more in the file, I would amend this.
 
 CSS 
 
@@ -73,7 +76,7 @@ After discussions with my mentor, Richard, the solution seemed obvious. The card
 As you can see the symbols are clear on all screens, not just the larger ones. Success!
 
 ![new design with code](assets/doc/testingnewdesignwithcode.png)
-![new card design mobile](assets/doc/newcarddesignmobile.png)
+![new card design large screen](assets/doc/newdesignlargescreen.png)
 
 However, as can be seen with the testing on Lighthouse, there is still room for improvement regarding the card design. This is something to consider for the future.
 
