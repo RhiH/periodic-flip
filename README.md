@@ -71,6 +71,30 @@ A number of future enhancements could be created for the page. Below are some of
 * create more cards from periodic table, and create a bigger grid - this could tie in to number of levels.
 * create an additional page with more info about each of the elements on the cards should the user wish to learn more.
 
+## **Credits**
+
+
+This project would not exist without the assistance on my mentor Richard, the Code Institute community on slack.
+
+A final thank you to the five year old who beat me at a memory matching card game earlier in the year before this project started, who shall remain nameless. You reminded me of how much I enjoy card matching games, whether physical or virtual. This game is for you!
+
+## **General References**
+
+The project was influenced by Awesome Vanilla JavaScript Memory Card Game Tutorial by Dev Ed available on YouTube. 
+
+https://www.youtube.com/watch?v=-tlb4tv4mC4
+
+I also consulted Memory Card Game - JavaScript Tutorial by freeCodeCamp.org available on YouTube. https://www.youtube.com/watch?v=ZniVgo8U7ek 
+
+Whilst I have deviated from these, there may be some similarities in code.
+
+I relied upon W3schools, MDN web docs and stack overflow for general references throughout the project.
+
+## ** Content**
+
+All cards have been created by myself, using information freely available regarding the properties of the first 10 elements of the periodic table.
+
+
 
 
 
