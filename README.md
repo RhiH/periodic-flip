@@ -58,7 +58,7 @@ There was deviation from the initial plans as the site progressed in terms of wh
 
 ### **Color Scheme**
 
-The color scheme became a dynamic one during the project. As the focus is meant to be on the cards, these were designed to be colorful, and the rest of the page should not detract from them, however, I decided that having a white background would not be in keeping with the overall aesthetic appeal - the game is meant to be a fun one, and therefore for the background colors i decided these would be bright and vivid, but also not take away from the vibrancy of the cards. 
+The color scheme became a dynamic one during the project. As the focus is meant to be on the cards, these were designed to be colorful, and the rest of the page should not detract from them, however, I decided that having a white background would not be in keeping with the overall aesthetic appeal - the game is meant to be a fun one, and therefore for the background colors I decided these would be bright and vivid, but also not take away from the vibrancy of the cards. 
 
 ![Beryllium](assets/images/Beryllium.jpg)
 
@@ -76,7 +76,7 @@ A number of future enhancements could be created for the page. Below are some of
 
 * change the number of cards to a lower amount, and then increase to 30 by creating different levels.
 * add in game lives to give an additional challenge.
-* add in a timer as an addtional challenge.
+* add in a timer as an additional challenge.
 * create more cards from periodic table, and create a bigger grid - this could tie in to number of levels.
 * create an additional page with more info about each of the elements on the cards should the user wish to learn more.
 * consider amending card design for a faster site.
@@ -84,7 +84,7 @@ A number of future enhancements could be created for the page. Below are some of
 ## **Credits**
 
 
-This project would not exist without the assistance on my mentor Richard, the Code Institute community on slack.
+This project would not exist without the assistance on my mentor Richard and the Code Institute community on slack.
 
 A final thank you to the five year old who beat me at a memory matching card game earlier in the year before this project started, who shall remain nameless. You reminded me of how much I enjoy card matching games, whether physical or virtual. This game is for you!
 
